@@ -1,0 +1,21 @@
+main{
+  margin: 50px;
+}
+
+#selectCategories {
+  width: 45%;
+  
+  & label{
+  display: block;
+  margin: 5px 0;
+  font-size: 20px;
+
+    & input{
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    &:hover{
+      background-color: rgba(0, 120, 255, 0.06);
+    }
+  }
+}

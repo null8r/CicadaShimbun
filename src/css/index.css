@@ -1,0 +1,19 @@
+main {
+  margin: 50px;
+}
+
+#selectCategories {
+  width: 45%;
+}
+#selectCategories label {
+  display: block;
+  margin: 5px 0;
+  font-size: 20px;
+}
+#selectCategories label input {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#selectCategories label:hover {
+  background-color: rgba(0, 120, 255, 0.06);
+}/*# sourceMappingURL=index.css.map */
