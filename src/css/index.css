@@ -1,9 +1,22 @@
+body {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
 main {
+  display: flex;
+  justify-content: center;
   margin: 50px;
 }
 
+.box {
+  padding: 30px;
+}
+
 #selectCategories {
-  width: 45%;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 #selectCategories label {
   display: block;

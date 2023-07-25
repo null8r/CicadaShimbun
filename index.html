@@ -14,42 +14,25 @@
   </head>
 
   <body>
-    <main>
-      <div id="roulette">
-        <div id="selectCategories">
-          <h2>カテゴリーを選択</h2>
-          <label>
-            <input type="checkbox" name="categories" value="main"  checked>主要
-          </label>
-          <label>
-            <input type="checkbox" name="categories" value="domestic" checked>国内
-          </label>
-          <label>
-            <input type="checkbox" name="categories" value="world" checked>国際
-          </label>
-          <label>
-            <input type="checkbox" name="categories" value="business" checked>経済
-          </label>
-          <label>
-            <input type="checkbox" name="categories" value="entertainment" checked>エンタメ
-          </label>
-          <label>
-            <input type="checkbox" name="categories" value="sports" checked>スポーツ
-          </label>
-          <label>
-            <input type="checkbox" name="categories" value="it" checked>IT
-          </label>
-          <label>
-            <input type="checkbox" name="categories" value="science" checked>科学
-          </label>
-          <label>
-            <input type="checkbox" name="categories" value="life" checked>ライフ
-          </label>
-          <label>
-            <input type="checkbox" name="categories" value="local" checked>地域
-          </label>
-        </div>
+    <main id="main">
+      <div id="roulette" class="box">
+        <h2>ルーレット</h2>
+      </div>
+
+      <div id="selectCategories" class="box">
+        <h2>カテゴリーを選択</h2>
+        <!-- カテゴリー一覧 -->
       </div>
     </main>
+
+    <script src="src/js/main.js"></script>
+    <noscript>
+      <style>
+        main{
+          display: none;
+        }
+      </style>
+      <h1>JavaScriptを有効にしてください</h1>
+    </noscript>
   </body>
 </html>
