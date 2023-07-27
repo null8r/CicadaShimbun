@@ -15,17 +15,34 @@
 
   <body>
     <main id="main">
-      <div id="roulette" class="box">
-        <h2>ルーレット</h2>
+      <div class="box">
+        <p class="boxTitle">ルーレット</p>
+        <input type="button" value="スタート" id="start" class="button" onclick="start();">
+        <input type="button" value="ストップ" class="button" onclick="stop();">
+        <div id="roulette" class="roulette">
+          <h1 id="result">今回のお題は？</h1>
+        </div>
+
+        <div id="timer">
+          
+        </div>
       </div>
 
-      <div id="selectCategories" class="box">
-        <h2>カテゴリーを選択</h2>
-        <!-- カテゴリー一覧 -->
+      <div class="box">
+        <p class="boxTitle">カテゴリーを選択</p>
+        <input type="button" value="全選択" id="selectAll" class="button" onclick="selectAll();"/>
+        <input type="button" value="選択解除" id="selectReset" class="button" onclick="selectClear();"/>
+
+        <div id="selectCategories">
+          <!-- カテゴリー一覧 -->
+          <form name="list" id="list">
+          </form>
+        </div>
       </div>
     </main>
 
     <script src="src/js/main.js"></script>
+    <script src="src/js/roulette.js"></script>
     <noscript>
       <style>
         main{

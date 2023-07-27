@@ -12,21 +12,41 @@ main {
 
 .box {
   padding: 30px;
+  width: 600px;
 }
 
-#selectCategories {
-  width: -moz-fit-content;
-  width: fit-content;
+.boxTitle {
+  font-size: 60px;
 }
+
+.button {
+  width: 150px;
+  height: 40px;
+}
+
 #selectCategories label {
   display: block;
   margin: 5px 0;
-  font-size: 20px;
+  font-size: 180%;
 }
 #selectCategories label input {
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 #selectCategories label:hover {
-  background-color: rgba(0, 120, 255, 0.06);
+  background-color: rgba(0, 119, 255, 0.25);
+  border-radius: 10px;
+}
+
+@media (max-width: 830px) {
+  html {
+    width: 100%;
+  }
+  main {
+    display: block;
+    margin: 5px;
+  }
+  .box {
+    width: auto;
+  }
 }/*# sourceMappingURL=index.css.map */
