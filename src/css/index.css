@@ -10,6 +10,10 @@ main {
   margin: 50px;
 }
 
+a {
+  text-decoration: none !important;
+}
+
 .box {
   padding: 30px;
   width: 600px;

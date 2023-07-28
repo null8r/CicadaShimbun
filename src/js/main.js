@@ -1,16 +1,16 @@
 var i = 0;
 const categories = [
   [
-    'main',
-    'domestic',
-    'world',
-    'business',
-    'entertainment',
-    'sports',
-    'it',
-    'science',
-    'life',
-    'local'
+    '',
+    'categories/domestic',
+    'categories/world',
+    'categories/business',
+    'categories/entertainment',
+    'categories/sports',
+    'categories/it',
+    'categories/science',
+    'categories/life',
+    'categories/local'
   ],
   [
     '主要',
